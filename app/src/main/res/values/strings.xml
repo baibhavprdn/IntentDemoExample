@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentDemoExample</string>
+    <string name="this_is_the_second_activity">This is the second activity</string>
+    <string name="msg_sent_from_the_first_activity_sits_here">Msg sent from the first activity sits here!</string>
+</resources>

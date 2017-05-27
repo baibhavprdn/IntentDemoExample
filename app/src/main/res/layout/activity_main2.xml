@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.baibhav.intentdemoexample.Main2Activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        android:background="@color/colorAccent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_the_second_activity"
+        android:textSize="30dp"
+        android:id="@+id/tv_secondact"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_sent_from_the_first_activity_sits_here"
+            android:id="@+id/tv_textfromone"
+            android:layout_below="@id/tv_secondact"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_gotofirst"
+            android:text="Click to go to first activity"
+            android:layout_below="@+id/tv_textfromone"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
